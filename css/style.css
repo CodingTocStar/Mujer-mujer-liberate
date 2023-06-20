@@ -1,0 +1,169 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+   .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+   h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #444;
+  }
+   p {
+    color: #666;
+    line-height: 1.6;
+  }
+   a {
+    color: #6d83f2;
+    text-decoration: none;
+  }
+   a:hover {
+    color: #4b61e0;
+  }
+   .btn {
+    background-color: #6d83f2;
+    color: white;
+    border: none;
+  }
+   .btn:hover {
+    background-color: #4b61e0;
+  }
+   .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+   .navbar .nav-link {
+    color: #444;
+  }
+  .navbar .nav-link:hover {
+    color: #6d83f2;
+  }
+   .carousel {
+    margin-top: 20px;
+  }
+   .carousel-item {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  }
+   .carousel-img {
+      object-fit: cover;
+      height: 70vh;
+  }
+   .carousel-caption {
+    background-color: rgba(153, 50, 204, 0.7);
+    padding: 10px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    border-radius: 5px;
+  }
+  .carousel-caption h5 {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+  }
+  .carousel-caption p {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+  }
+   #sobre-nosotros {
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+   #sobre-nosotros h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+   #sobre-nosotros img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    border-radius: 20px;
+  }
+   #sobre-nosotros p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+   .card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+   .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+   .footer {
+    background-color: #fff;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    bottom: 0;
+  }
+   .form-control {
+    box-shadow: none;
+  }
+   .form-control:focus {
+    border-color: #6d83f2;
+    box-shadow: none;
+  }
+   @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+   h1 {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: blink 3s linear infinite;
+  }
+  
+  /*============================================================================
+  NUESTRA HISTORIA 
+  ==============================================================================*/
+  
+  .purple-bg {
+    background-color: #8e44ad;
+    border-radius: 10px;
+  }
+  
+  .white-text {
+    color: #fff;
+  }
+  
+  .thick-border {
+    border: 2px solid #fff;
+  }
+
+  .nuestra_historia_fondo{
+    background-color: #a8dc9b;
+  }
+
+  .nuestra_historia_fondo , p{
+    color: white;
+  }
+  
+  @media (min-width: 992px) {
+    #sobre-nosotros .row {
+      display: flex;
+      flex-direction: row;
+    }
+    #sobre-nosotros .col-md-6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }  
